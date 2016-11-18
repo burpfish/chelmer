@@ -1,0 +1,42 @@
+// ----------------------------------------------------------------------------
+// Widget styles
+// ----------------------------------------------------------------------------
+.widget-ohvolume {
+
+  background-color: #444 !important;
+  position: relative;
+}
+
+.grid-table {
+  display:table;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:100%;
+}
+
+.grid-table-row {
+  display:table-row;
+  width: 100%;
+  height: 33.3%;
+}
+
+.grid-table-cell {
+  display:table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size:200%;
+}
+
+.grid-table-cell-image {
+  background: url('http://localhost:3030/assets/dave.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: 10;
+
+  display:table-cell;
+  text-align: center;
+  vertical-align: middle;
+  font-size:200%;
+}
