@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'dashing'
+gem 'twitter', '>= 5.9.0'
+
 gem 'thor'
 
 # Authentication
@@ -15,11 +17,12 @@ gem 'json'
 gem 'data_mapper'
 
 # Development
-group :development do
-	gem 'dm-sqlite-adapter'
-end
+#group :development do
+#	gem 'dm-sqlite-adapter'
+#	gem 'dm-in-memory-adapter'
+#end
 
 # Production
-group :production do
-	gem 'dm-postgres-adapter'
-end
+#group :production do
+#	gem 'dm-postgres-adapter'
+#end
